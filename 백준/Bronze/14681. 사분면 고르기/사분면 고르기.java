@@ -8,15 +8,14 @@ public class Main {
         int X = sc.nextInt();
         int Y = sc.nextInt();
 
-        if(X > 0 && Y > 0) {
+        if(X > 0 && Y > 0){
             System.out.println("1");
-        } else if(Y > 0){
+        }else if(X < 0 && Y > 0){
             System.out.println("2");
-        } else if(X < 0 && Y < 0) {
+        }else if(X < 0 && Y < 0){
             System.out.println("3");
-        } else {
+        }else if(X > 0 && Y < 0){
             System.out.println("4");
         }
-
     }
 }
